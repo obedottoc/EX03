@@ -4,3 +4,4 @@ Assistant Professor, Associate Professor and Professor from Employee class.
 Add basicPay (BP) as the member of all the inherited classes with 97% of BP as DA,
 10 % of BP as HRA, 12% of BP as PF, 0.1% of BP for staff club fund. Generate pay 
 slips for the employees with their gross and net salary.
+
