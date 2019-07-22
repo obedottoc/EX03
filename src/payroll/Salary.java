@@ -18,9 +18,9 @@ public class Salary {
 
 			prog=new Programmer("Kamal",600001,"Chennai","account@gmail.com",7000000001l, 100000);
 			
-			ass1=new AssisstantProfessor("Kala",800001,"Chennai","account@gmail.com",4000000001l,10000);
+			ass1=new AssisstantProfessor("Kala",800001,"Chennai","account@gmail.com",4000000001l,50000);
 			
-			ass2=new AssociativeProfessor("Sheeba",900001,"Tuticorin","abc@gmail.com",500000012l,10000);
+			ass2=new AssociativeProfessor("Sheeba",900001,"Tuticorin","abc@gmail.com",500000012l,60000);
 			
 			pro=new Professor("Mani",500001,"Madurai","mani@gmail.com",600000009l,10000);
 			

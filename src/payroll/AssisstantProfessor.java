@@ -26,12 +26,12 @@ public class AssisstantProfessor extends Employee {
 	
 	public void Calculation()
 	{
-		da=(97/100)*basic_pay;
-		hra=(10/100)*basic_pay;
-		pf=(12/100)*basic_pay;
-		staff_club=(0.1/100)*basic_pay;
-		gross_salary=da+hra+pf+staff_club;
-		net_salary=basic_pay-(pf+gross_salary);
+		da=(97.0/100)*basic_pay;
+		hra=(10.0/100)*basic_pay;
+		pf=(12.0/100)*basic_pay;
+		staff_club=(0.001)*basic_pay;
+		gross_salary=da+hra+basic_pay;
+		net_salary=gross_salary-(pf+staff_club);
 	}
 	
 	public void printAccount()
