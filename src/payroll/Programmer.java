@@ -23,6 +23,7 @@ public class Programmer extends Employee {
 	{
 	super.printaccount();
 	System.out.println("Basic pay:"+basicpay);
+	System.out.println("-------------------------------------------------------------");
 	}
 	
 	public void printStatement()
@@ -46,5 +47,7 @@ public class Programmer extends Employee {
 	System.out.printf("staff club fund:%.2f\n",total3);
 	System.out.printf("gross salary is:%.2f\n",gross);
 	System.out.printf("net salary is:%.2f\n",net);
+	System.out.println("------------------------------------------");
+	
 	}
 }

@@ -18,7 +18,7 @@ Asspro=new AssistantProfessor("vinay",50130,"Chennai","vinay7@gmail.com",7000000
 Asopro=new AssociativeProfessor("sai",800001,"Chennai","sai10@gmail.com",4000000,560000);
 
 prof=new Professor("vishak",900001,"chennai","vishak7@gmail.com",2000000,580000);
-pro.printAccount();
+pro.printStatement();
 Asspro.printStatement();
 Asopro.printStatement();
 prof.printStatement();
