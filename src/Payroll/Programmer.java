@@ -20,7 +20,7 @@ public void printAccount()
 {
 	super.printaccount();
 	System.out.println("Basic pay:"+basicpay);
-	System.out.println("\n");
+	System.out.println("------------------------------------------------------------------------------------------------------------");
 }
 public void printStatement()
 {
