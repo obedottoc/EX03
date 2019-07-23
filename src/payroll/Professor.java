@@ -41,7 +41,7 @@ System.out.printf("PF:%2f\n",total2);
 System.out.printf("staff club fund:%.2f\n",total3);
 System.out.printf("gross salary is:%.2f\n",gross);
 System.out.printf("net salary is:%.2f\n",net);
-System.out.println("\n");
+System.out.println("----------------------------------------------------");
 }
 }
 
