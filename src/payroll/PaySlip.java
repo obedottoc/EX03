@@ -1,26 +1,36 @@
 package payroll;
+public class PaySlip{ 
 
-public class PaySlip {
+              public static void main (String[]args) {
 
-	public static void main(String[] args) {
-		Employee emp;
-		Programmer prog;
-	    AssociateProfessor aspro;
-	    AssistantProfessor asspro;
-	    Professor pro;
-		    emp= new Employee("yogi",5000001,"chennai","account@gmail.com",8000000001l);
-			prog=new Programmer("Raja",300001,"Chennai","account@gmail.com",9000000001l,400000.0);
+                           Programmer pro;
 
-			aspro=new AssociateProfessor("Kamal",600001,"Chennai","account@gmail.com",7000000001l,500000.00);
-			
-			asspro=new AssistantProfessor("Kala",800001,"Chennai","account@gmail.com",4000000001l,400000.00);
-			 
-			pro=new Professor("suri",400001,"myd","account@gmail.com",8000000001l,300000.00);
-			emp.printEmployee();
-			pro.printProfessor();			
-			aspro.printAssociateProfessor();
-			asspro.printAssistantProfessor();
-			prog.printProgrammer();
-	}
+                           AssistantProfessor AssPro;
+
+                           AssociateProfessor AsoPro;
+
+                           Professor Prof;
+
+                           pro=new Programmer("Nithish",300001,"chennai","nithish@.com",9000001,600000);
+
+                           AssPro=new AssistantProfessor ("Kumar",600001,"chennai","kumar@gmail.com",70000001,50000);
+
+                           AsoPro=new AssociateProfessor("kala",8000001,"trichy","kala@gmail.com",700001,70000);
+
+                           Prof=new Professor ("Reddy",9000001,"kadapa","reddy@gmail.com",2000001,900000);
+
+                           pro.printAccount();
+
+                           AssPro.printStatement();
+
+                           AsoPro.printStatement();
+
+                           Prof.printStatement();             
+
+              }
+
+             
+
+ 
 
 }

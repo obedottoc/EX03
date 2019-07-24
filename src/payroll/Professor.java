@@ -1,50 +1,93 @@
 package payroll;
 
+ 
 
-public class Professor extends Employee{
-	private double basic_pay;
-	public double da;
-	public double hra;
-	public double pf;
-	public double staff_club;
-	public double gross_salary;
-	public double net_salary;
-	
-	public Professor()
-	{
-	 basic_pay=0;
-	}
-	
-	public Professor(String n,long id,String ad,String mail,long mo,double bp)
-	{
-		basic_pay=bp;
-	}
-	
-	
-	public void Employee()
-	{
-		super.printEmployee();
-		System.out.println("enter the basic pay salary:"+basic_pay);
-	}
-	
-	public void calculation()
-	{
-		double da,hra,pf,staff_club;
-		da=0.97*basic_pay;
-		hra=0.1*basic_pay;
-		pf=1.2*basic_pay;
-		staff_club=10*basic_pay;
-		gross_salary=da+hra+pf+staff_club;
-		net_salary=basic_pay-(pf+staff_club);
+public class Professor extends Employee {
 
-}
-public void printProfessor(){
-	
-	System.out.println("employee basic salary"+basic_pay);
-	System.out.println("employee gross salary"+ gross_salary);
-    System.out.println("employee net salary"+net_salary);
+private double basicpay;
 
-	
-}
+ 
+
+             
+
+              public Professor()
+
+              {
+
+                           basicpay=0;
+
+              }
+
+              public Professor (String n, long id, String ad, String mail, long mo, double BP)
+
+              {
+
+                           super (n,id,ad,mail,mo);
+
+                           basicpay=BP;
+
+              }
+
+              public void printAccount()
+
+              {
+
+                          
+
+                           super.printAccount ();
+
+                           System.out.println("Basic pay:"+basicpay);
+
+              }
+
+              public void printStatement()
+
+              {
+
+              double total;
+
+              double total1;
+
+              double total2;
+
+              double total3;
+
+              double gross;
+
+              double net;
+
+              printAccount();
+
+             
+
+             
+
+              total=basicpay*0.97;
+
+              total1=basicpay*0.1;
+
+              total2=basicpay*0.12;
+
+              total3=basicpay*0.001;
+
+              gross=total+total1+total2+total3;
+
+              net=gross-total2-total3;
+
+              System.out.printf("Duty Allowance (DA):%2f\n",total);
+
+              System.out.printf("HRA:%2f\n",total1);
+
+              System.out.printf("PF:%2f\n",total2);
+
+              System.out.printf("Staff club fund:%2f\n",total3);
+
+              System.out.printf("Staff salary is:%2f\n",gross);
+
+              System.out.printf("net salary is:%2f\n",net);
+
+             
+
+              }
 
 }
