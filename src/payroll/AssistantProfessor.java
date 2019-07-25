@@ -1,4 +1,4 @@
-package payroll;
+package payroll;ss
 
 public class AssistantProfessor extends Employee{
 	private double basic_pay;
