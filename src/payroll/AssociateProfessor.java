@@ -1,4 +1,4 @@
-package payroll;s
+package payroll;
 
 public class AssociateProfessor extends Employee{
 	private double basic_pay;

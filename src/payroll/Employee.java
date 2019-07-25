@@ -1,4 +1,4 @@
-package payroll;s
+package payroll;
 
 public class Employee {
 		protected String emp_name;

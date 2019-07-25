@@ -1,4 +1,4 @@
-package payroll;ss
+package payroll;
 
 public class Programmer extends Employee{
 	private double basic_pay;
