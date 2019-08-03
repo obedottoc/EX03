@@ -1,3 +1,12 @@
+/*****
+ * To create a payroll for associative professor
+ * 
+ * @author Harsha vardhan reddy
+ * 
+ * reddyharsha298@gmail.com
+ */
+
+
 package Payroll;
 
 public class AssociativeProfessor extends Employee {

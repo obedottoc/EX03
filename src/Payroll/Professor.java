@@ -1,3 +1,10 @@
+/*****
+ * To create a payroll for Professor
+ * 
+ * @author Harsha vardhan reddy
+ * 
+ * reddyharsha298@gmail.com
+ */
 package Payroll;
 
 public class Professor extends Employee {

@@ -1,3 +1,13 @@
+/*****
+ * To create a payroll for assistantprofessor
+ * 
+ * @author Harsha vardhan reddy
+ * 
+ * reddyharsha298@gmail.com
+ * 
+ */
+
+
 package Payroll;
 public class AssistantProfessor extends Employee {
     private double basicpay;
