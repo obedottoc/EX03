@@ -1,3 +1,6 @@
+/**
+ * Created By Avinash Raja
+ */
 package Payment;
 
 public class AssistantProfessor extends Employee{
@@ -11,7 +14,11 @@ public class AssistantProfessor extends Employee{
 		super(n,id,ad,mail,num);
 		basic_pay=bp;
 	}
-	public void printAssistantProfessor()
+	public void printAccount()
+	{
+		System.out.println("BASIC_PAY:"+basic_pay);
+	}
+	public void printEmpolyee()
 	{
 		super.printEmployee();
 		double da,hra,pf,clubfund,grosssalary,netsalary,deduction;
@@ -22,7 +29,11 @@ public class AssistantProfessor extends Employee{
 		deduction=pf+clubfund;
 		grosssalary=basic_pay+da+hra;
 		netsalary=grosssalary+deduction;
-		System.out.println("BASIC_PAY:"+basic_pay);
+		System.out.println("DA:"+da);
+		System.out.println("HRA:"+hra);
+		System.out.println("PF:"+pf);
+		System.out.println("CLUB FUND:"+clubfund);
+		System.out.println("DEDUCTION:"+deduction);
 		System.out.println("GROSSSALARY:"+grosssalary);
 		System.out.println("NETSALARY:"+netsalary);
 	}
