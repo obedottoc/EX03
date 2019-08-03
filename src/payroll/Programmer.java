@@ -1,3 +1,7 @@
+/***
+ * to create programmer
+ * @author amanikanta69@gmail.com
+ */
 package payroll;
 
 public class Programmer extends Employee {
@@ -37,6 +41,8 @@ public class Programmer extends Employee {
 	System.out.printf("staff club fund:%.2f\n",total3);
 	System.out.printf("gross salary is:%.2f\n",gross);
 	System.out.printf("net salary is:%.2f\n",net);
+	System.out.printf("-------------------------------------");
+	System.out.printf("\n");
 	}
 	
 }

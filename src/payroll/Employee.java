@@ -1,3 +1,8 @@
+/***
+ * to create Employee
+ * @author amanikanta69@gmail.com
+ * 
+ */
 package payroll;
 
 public class Employee {
@@ -30,6 +35,7 @@ System.out.println("Employee ID:"+emp_id);
 System.out.println("Address:"+address);
 System.out.println("Mail ID of the employee:"+mail_id);
 System.out.println("Mobile number of the employee:"+mobile_no);
+System.out.printf("\n");
  }
 
 }

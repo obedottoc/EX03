@@ -36,6 +36,7 @@ package payroll;
 	System.out.printf("staff club fund:%.2f\n",total3);
 	System.out.printf("gross salary is:%.2f\n",gross);
 	System.out.printf("net salary is:%.2f\n",net);
+	System.out.printf("-------------------------------------");
 	System.out.println("\n");
 	}
 	

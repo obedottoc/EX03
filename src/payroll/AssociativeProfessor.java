@@ -1,3 +1,8 @@
+/****
+ * to calculate associative professor
+ *@author amanikanta69@gmail.com
+ *
+ */
 package payroll;
 	public class AssociativeProfessor extends Employee {
 	       private double basicpay;
@@ -14,6 +19,7 @@ package payroll;
 	{
 	super.printaccount();
 	System.out.println("Basic pay:"+basicpay);
+	
 	}
 	public void printStatement()
 	{
@@ -36,6 +42,8 @@ package payroll;
 	System.out.printf("staff club fund:%.2f\n",total3);
 	System.out.printf("gross salary is:%.2f\n",gross);
 	System.out.printf("net salary is:%.2f\n",net);
+	System.out.printf("-------------------------------------");
+	System.out.printf("\n");
 	}
 	
 

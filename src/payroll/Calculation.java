@@ -1,3 +1,7 @@
+/****
+ * to calculate calculation
+ * @author amanikanta69@gmail.com
+ */
 package payroll;
 
 public class Calculation {
@@ -14,7 +18,7 @@ public class Calculation {
 		
 		prof=new Professor("harsha",456789,"chennai","account@gmail.com",23456789l,234567);
 		
-		Pro.printAccount();
+		Pro.printStatement();
 		Asspro.printStatement();
 		Asopro.printStatement();
 		prof.printStatement();
