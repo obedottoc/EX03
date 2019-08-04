@@ -49,7 +49,7 @@ public class AssistantProfessor extends Employee {
 
 	    DA=basicpay*0.97;
 
-	    HRA=basicpay*0.1;
+	    HRA=basicpay*0.10;
 
 	    PF=basicpay*0.12;
 
