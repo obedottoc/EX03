@@ -16,7 +16,7 @@ public class Payslip {
 		
 			emp1=new Employee("Raja",300001,"Chennai","account@gmail.com",90000000001l);
 
-			asp1=new AssistantProffessor("Ram",600001,"Chennai","account@gmail.com",7000000001l, 500000.00);
+			asp1=new AssistantProffessor("Ammu",600001,"Chennai","account@gmail.com",7000000001l, 500000.00);
 			
 			ap1=new AssociateProffessor("Maari",800001,"Chennai","account@gmail.com",4000000001l,20000.00);
 			
