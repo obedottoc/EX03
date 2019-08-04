@@ -53,7 +53,7 @@ public class AssistantProfessor extends Employee {
 
 	    PF=basicpay*0.12;
 
-	    stafffund=basicpay*0.0010;
+	    stafffund=basicpay*0.001;
 
 	    gross=DA+HRA+PF+stafffund;
 

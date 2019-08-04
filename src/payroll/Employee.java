@@ -16,7 +16,7 @@ public class Employee {
 
 	public Employee ()
 	{
-	emp_name="name";
+	emp_name="noname";
 	emp_id=100001;
 	address="not given";
 	mail_id="not given";

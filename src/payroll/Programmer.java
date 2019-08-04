@@ -54,9 +54,9 @@ public class Programmer extends Employee {
 
 	    HRA=basicpay*0.1;
 
-	    PF=basicpay*0.12;
+	    PF=basicpay*0.13;
 
-	    stafffund=basicpay*0.0010;
+	    stafffund=basicpay*0.001;
 
 	    gross=DA+HRA+PF+stafffund;
 
