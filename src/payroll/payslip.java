@@ -1,3 +1,8 @@
+/****
+ * Program for Payslip generation
+ * @author Pavan Kalyan
+ *  npkr.nvrr@outlook.com
+ */
 package payroll;
 
 public class payslip {

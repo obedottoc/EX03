@@ -1,3 +1,8 @@
+/****
+ * Program for Associative Professor
+ * @author Pavan Kalyan
+ *  npkr.nvrr@outlook.com
+ */
 package payroll;
 
 public class AssociativeProfessor extends Employee {

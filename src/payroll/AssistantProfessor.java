@@ -1,3 +1,8 @@
+/****
+ * Program for Assistant Professor
+ * @author Pavan Kalyan
+ *  npkr.nvrr@outlook.com
+ */
 package payroll;
 
 public class AssistantProfessor extends Employee {
