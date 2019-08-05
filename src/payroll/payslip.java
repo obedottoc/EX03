@@ -1,6 +1,6 @@
 /****
  * Program for Payslip generation
- * @author Pavan Kalyan
+ * @author  Rositha V
  *  npkr.nvrr@outlook.com
  */
 package payroll;
