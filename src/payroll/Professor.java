@@ -1,4 +1,7 @@
-package payroll;
+/*payslip generator
+ * suriyakumar
+ * 212217105057
+ * sksuri01@gmail.com*/package payroll;
 
 
 public class Professor extends Employee{
