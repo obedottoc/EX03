@@ -1,3 +1,9 @@
+/**created by m.uday kanth
+ * eee-b, mail id:-udaykanth67@gmail.com
+ * 
+ *
+ */
+
 package Payroll;
 public class AssociativeProfessor extends Employee {
     private double basicpay;
