@@ -2,7 +2,7 @@
 
  * program  to represent  salary  of employees
  * developed by 
- * mahesh k
+ * @author Mahesh k
  * 
  */
 
