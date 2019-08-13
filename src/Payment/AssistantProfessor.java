@@ -36,5 +36,6 @@ public class AssistantProfessor extends Employee{
 		System.out.println("DEDUCTION:"+deduction);
 		System.out.println("GROSSSALARY:"+grosssalary);
 		System.out.println("NETSALARY:"+netsalary);
+	
 	}
 	}
