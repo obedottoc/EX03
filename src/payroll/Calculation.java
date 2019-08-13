@@ -1,4 +1,9 @@
+/***
+ * developed by lokesh j
+ * gmail lokeshwarn2000@gmail.com
+ */
 package payroll;
+
 
 import payroll.Assistantprofessor;
 import payroll.Associateprofessor;
@@ -22,7 +27,6 @@ import payroll.Programmer;
 		asp1.printEmployee();
 		ap1.printEmployee();
 		p1.printEmployee();
-		pro1.printEmployee();
 		
 		}
 	}
