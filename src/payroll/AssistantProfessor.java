@@ -1,4 +1,7 @@
-package payroll;
+/***** @author Rositha V
+ *  rosithav1@gmail.com
+ */
+ package payroll;
 
 public class AssistantProfessor extends Employee {
 	private double basicpay;
