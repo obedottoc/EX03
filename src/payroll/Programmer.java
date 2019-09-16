@@ -1,5 +1,5 @@
 
-spackage payroll;
+package payroll;
 
 public class Programmer extends Employee {
 

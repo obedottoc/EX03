@@ -1,4 +1,4 @@
-spackage payroll;
+package payroll;
 
 public class Assistantprofessor extends Employee {
 
