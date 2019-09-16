@@ -1,20 +1,24 @@
 /****
- * Program for Payslip generation
- * @author  Rositha V
- *  npkr.nvrr@outlook.com
+ * Program for Payslip
+ * @author Rositha V
+ *  rosithav1@gmail.com
  */
+
 package payroll;
 
 public class payslip {
+	private static Employee Emp;
+
 	public static void main (String[]args) {
 		Programmer pro;
 		AssistantProfessor AssPro;
 		AssociativeProfessor AsoPro;
 		Professor Prof;
-		pro=new Programmer("Pavan",300001,"chennai","pavan@gmail.com",9000001,600000);
-		AssPro=new AssistantProfessor ("Kalyan",600001,"chennai","kalyan@gmail.com",70000001,50000);
-		AsoPro=new AssociativeProfessor("Sumanth",8000001,"nellore","sumanth@gmail.com",700001,70000);
-		Prof=new Professor ("Reddy",9000001,"kadapa","reddy@gmail.com",2000001,900000);
+		Emp= new Employee("Roshh",300001,"chennai","account@gmail.com",9000001);
+		AssPro=new AssistantProfessor ("Raja",600001,"chennai","account@gmail.com",70000001,50000);
+		AsoPro=new AssociativeProfessor("Moni",8000001,"chennai","account@gmail.com",700001,70000);
+		pro=new Programmer("Mari",8000001,"chennai","account@gmail.com",700001,70000);
+		Prof=new Professor ("Yogee",9000001,"chennai","account@gmail.com",2000001,900000);
 		pro.printAccount();
 		AssPro.printStatement();
 		AsoPro.printStatement();

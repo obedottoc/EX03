@@ -1,7 +1,7 @@
 /****
- * Program for Assistant Professor
+ * Program for Payslip
  * @author Rositha V
- *  npkr.nvrr@outlook.com
+ *  rosithav1@gmail.com
  */
 package payroll;
 

@@ -1,8 +1,9 @@
 /****
- * Program for programmer
- * @author  Rositha V
- *  npkr.nvrr@outlook.com
+ * Program for Payslip
+ * @author Rositha V
+ *  rosithav1@gmail.com
  */
+ 
 package payroll;
 
 public class Programmer extends Employee{
