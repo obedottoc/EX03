@@ -1,3 +1,8 @@
+/**
+ * Ahamed meeran
+ * ahamedmeeran23@gmail.com
+ * EX02
+ */
 package payroll;
    public class Employee { 
 	   protected String Emp_name;
