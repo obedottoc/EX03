@@ -1,39 +1,36 @@
-//program to represent payroll
-//created by Abhijith
-//abhijithabhi524@gmail.com
+/*created by Abhijith.S
+abhijithabhi524@gmail.com
+*/
+
+
 package payroll;
 
 public class Employee {
-          protected String employee_name;
-          protected long employee_id;
-          protected String address;
-          protected long mobile_no;
-          protected String mail_id;
-          public Employee()
-          {
-        	  employee_name="karthi";
-        	  employee_id=1001;
-        	  address="kknagar";
-        	  mail_id="karthi@gmail.com";
-        	  mobile_no=8000000;
-        	  
-          }
-          public Employee(String n,long id,String ad,String mail,long mo)
-          {
-        	  employee_name=n;
-        	  employee_id=id;
-        	  address=ad;
-        	  mail_id=mail;
-        	  mobile_no=mo;
-          }
-          public void printaccount()
-          {
-        	  System.out.println("name:"+employee_name);
-        	  System.out.println("Account id:"+employee_id);
-        	  System.out.println("address:"+address);
-        	  System.out.println("email:"+mail_id);
-        	  System.out.println("mobile:"+mobile_no);
-        	  
-          }
-          
-}
+	protected String empname;
+	protected long empid;
+	protected String address;
+	protected String mailid;
+	protected long mobileno;
+	
+	public Employee()
+	{	empname="no name";
+		empid=100001;
+		address="not given";
+		mailid="not given";
+		mobileno=800000001;
+	}
+	public Employee(String n,long id,String ad,String mail,long mn)
+	{	empname=n;
+		empid=id;
+		address=ad;
+		mailid=mail;
+		mobileno=mn;
+	}
+	public void printEmployee()
+	{	System.out.println("Name: "+empname);
+		System.out.println("Account: "+empid);
+		System.out.println("Address: "+address);
+		System.out.println("Email: "+mailid);
+		System.out.println("Mobile: "+mobileno);
+	}
+} 
