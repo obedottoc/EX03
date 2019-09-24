@@ -2,7 +2,7 @@ package PAYROLL;
 public class Professor extends Employee 
 {
 		private double basicpay;
-		public Professor()
+		public Professor(String data1, int data2, String data3, String data4, Long data5, Long data6)
 			{
 			basicpay=0;
 		}

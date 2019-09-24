@@ -3,7 +3,7 @@ package PAYROLL;
 public class Programmer extends Employee 
 {
 		private double basicpay;
-		public Programmer()
+		public Programmer(String data1, int data2, String data3, String data4, Long data5, Long data6)
 			{
 			basicpay=0;
 		}
