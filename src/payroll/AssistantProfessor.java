@@ -1,7 +1,7 @@
-/****
- * created by Roopesh
- */
+//**
+//** created by Roopesh
 
+//** this program is written to develop a java console application for gross and net salary.
 
 package payroll;
 
