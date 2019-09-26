@@ -1,6 +1,8 @@
-/*This program is created by
-							Kaarthikeyan.G
-							email:gk81299@gmail.com*/
+/*This program is created b
+Kaarthikeyan.G
+email:gk81299@gmail.com
+*/
+
 package payroll;
 import java.util.Scanner;
 public class Employee 
