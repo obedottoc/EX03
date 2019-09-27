@@ -2,7 +2,7 @@
  * Application for PayRoll
  * 
  * developed by Mohan Raj c
- * cvmohanraj3 2gmail.com
+ * cvmohanraj3@gmail.com
  * 
  * 
  */
