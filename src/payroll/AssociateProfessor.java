@@ -1,6 +1,9 @@
-//Program to represent payroll
-//Created by Faizul
-//faizulsmart10@gmail.com
+/*
+ * Program to represent Asso.Professor
+ * By Faizul
+ * faizulsmart10@gmail.com
+*/
+
 package payroll;
 
     public class AssociateProfessor extends Employee {

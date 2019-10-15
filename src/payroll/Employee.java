@@ -1,6 +1,8 @@
-//Program to represent payroll
-//Created by Faizul
-//faizulsmart10@gmail.com
+/*
+ * Program to represent Employee
+ * By Faizul
+ * faizulsmart10@gmail.com
+*/
 
 package payroll;
 
